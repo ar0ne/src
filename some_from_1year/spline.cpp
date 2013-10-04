@@ -6,7 +6,7 @@
  */
 
 /* y = arctg (x)
-*	5 узлов
+*	5 СѓР·Р»РѕРІ
 *	[0 , 2]		*/
 
 
@@ -26,7 +26,7 @@ float f(int i){
 void solve() {
 	double mass[5];
 	double x=0;
-	cout<<"Точное решение y = arctg (x) на [0,2]:\n";
+	cout<<"РўРѕС‡РЅРѕРµ СЂРµС€РµРЅРёРµ y = arctg (x) РЅР° [0,2]:\n";
 	for(int i=0; i<5 ; i++, x += 0.5) {
 		mass[i] = atan(x);
 		cout<<setprecision(5)<<"S("<<i*0.5<<")= "<<mass[i]<<endl;
