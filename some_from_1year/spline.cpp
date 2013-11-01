@@ -9,7 +9,7 @@
 *	5 узлов
 *	[0 , 2]		*/
 
-
+/*
 #include <iostream>
 #include <locale.h>
 using namespace std;
@@ -57,6 +57,7 @@ int mainDDD(){
 	float b[5]={NULL};
 	float S[5]={NULL};
 
+*/
 	/*
 	A[0] = (-matr[0][1])/matr[0][0];
 	B[0] = z[0]/matr[0][0];
@@ -67,7 +68,7 @@ int mainDDD(){
 	A[2] = 0;
 	c[3] = B[2] = (z[2]-matr[2][1]*B[1])/(matr[2][1]*A[1] + matr[2][2]);
 	*/
-
+/*
 	A[0] = (matr[0][1])/(-matr[0][0]);
 	B[0] = -z[0]/(-matr[0][0]);
 
@@ -97,4 +98,4 @@ int mainDDD(){
 	return 0;
 }
 
-
+*/

@@ -29,7 +29,7 @@ void MakeMatrix(int *A,const int n ,bool flag , int *v ){
 		cout<<endl;
 		for(int j=0; j<n; j++){
 			if(flag){
-				if(((A[i] - A[j])%3 == 0) && (A[i] >= A[j])){
+				if(((A[i] - A[j])%3 == 0)){
 					*(v+i*n+j)= 1;
 				}else {
 					*(v+i*n+j) = 0;
