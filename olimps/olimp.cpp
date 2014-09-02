@@ -5,6 +5,7 @@
  *  Created on: 02.10.2013
  *      Author: LOL
 
+*/
 
 // http://olimp.bstu.by/en/problem-pid-c372?ps=1&smt=a&smpwid=0
 
@@ -56,4 +57,3 @@ int main(){
 }
 
 
-*/
